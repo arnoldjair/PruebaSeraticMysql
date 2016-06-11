@@ -8,6 +8,15 @@ insert into categories(category_name, remarks) values
 ("category7", "remark7"),
 ("category8", "remark8"),
 ("category9", "remark9");
+("category10", "remark10"),
+("categor11", "remark21"),
+("catego12", "remark31"),
+("categ13", "remark41"),
+("cate14", "remark51"),
+("cat15", "remark61"),
+("cate16", "remark71"),
+("categ17", "remark81"),
+("category18", "remark91");
 
 
 insert into movies(title, director, year_released, category_id) values
@@ -41,7 +50,9 @@ insert into movie_rentals(transaction_date, return_date, membership_number, movi
 ("2016/01/01", "2016/01/05", 7, 6),
 ("2016/01/01", "2016/01/05", 8, 7),
 ("2016/01/01", "2016/01/05", 9, 8),
-("2016/01/01", "2016/01/05", 10, 9);
+("2016/01/01", "2016/01/05", 10, 9),
+("2016/09/01", "2016/09/05", 2, 9),
+("2016/09/01", "2016/09/05", 3, 5);
 
 insert into payments(membership_number, payment_date, description, amount_paid, external_reference_number) values 
 (2, "2016/01/01", "none", 15000, 100),
